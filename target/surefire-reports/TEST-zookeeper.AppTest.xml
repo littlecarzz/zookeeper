@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="zookeeper.AppTest" time="0.185" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="user.variant" value=""/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="user.dir" value="F:\ideaProject\zookeeper"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_80\jre"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_80\jre\bin"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="localRepository" value="F:\repository"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.class.path" value="F:\ideaProject\zookeeper\target\test-classes;F:\ideaProject\zookeeper\target\classes;F:\repository\junit\junit\4.11\junit-4.11.jar;F:\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;F:\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;F:\repository\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;F:\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;F:\repository\jline\jline\0.9.94\jline-0.9.94.jar;F:\repository\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="user.script" value=""/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="sun.java.command" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire3943456342655891521\surefirebooter2956790174676407319.jar C:\Users\Administrator\AppData\Local\Temp\surefire3943456342655891521 2019-05-24T11-13-51_742-jvmRun1 surefire4328083559524299397tmp surefire_04753034214054273938tmp"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="surefire.test.class.path" value="F:\ideaProject\zookeeper\target\test-classes;F:\ideaProject\zookeeper\target\classes;F:\repository\junit\junit\4.11\junit-4.11.jar;F:\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;F:\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;F:\repository\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;F:\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;F:\repository\jline\jline\0.9.94\jline-0.9.94.jar;F:\repository\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;"/>
+    <property name="java.runtime.version" value="1.7.0_80-b15"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_80\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_80\jre\classes"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire3943456342655891521\surefirebooter2956790174676407319.jar"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_80\jre\lib\endorsed"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.version" value="24.80-b11"/>
+    <property name="idea.version2019.1.1" value="true"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="java.version" value="1.7.0_80"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_80\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="os.version" value="6.1"/>
+    <property name="basedir" value="F:\ideaProject\zookeeper"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_80\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\app\Administrator\product\11.2.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_80\bin;C:\Program Files\Java\jdk1.7.0_80\jre\bin;D:\Program Files\VisualSVN Server\bin;E:\nodejs\;E:\Git\cmd;C:\Program Files\MongoDB\Server\4.0\bin;E:\redis;C:\Users\Administrator\AppData\Roaming\npm;E:\Docker Toolbox;."/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="user.country" value="CN"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="zookeeper.AppTest" time="0.002"/>
+</testsuite>
