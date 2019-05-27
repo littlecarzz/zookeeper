@@ -8,6 +8,10 @@ import org.apache.zookeeper.data.Stat;
 import java.io.UnsupportedEncodingException;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * 查找数据
+ * @author littlecar
+ */
 public class WriteData extends ConnectionWatcher{
     private static final long RETRY_PERIOD_SECONDS=10000;
     private static final String CHARSET = "UTF-8";

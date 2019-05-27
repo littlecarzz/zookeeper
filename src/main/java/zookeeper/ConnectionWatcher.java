@@ -9,7 +9,7 @@ import java.util.concurrent.CountDownLatch;
 
 /**
  * 连接的观察者，封装了zk的创建等
- * @author leo
+ * @author littlecar
  *
  */
 public class ConnectionWatcher implements Watcher {

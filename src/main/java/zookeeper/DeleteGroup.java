@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * 删除分组
- * @author leo
+ * @author littlecar
  *
  */
 public class DeleteGroup extends ConnectionWatcher {

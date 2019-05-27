@@ -9,6 +9,7 @@ import java.util.concurrent.CountDownLatch;
  * 这里我们使用了同步计数器CountDownLatch，在connect方法中创建执行了zk = new ZooKeeper(hosts, SESSION_TIMEOUT, this);
  * 之后，下边接着调用了CountDownLatch对象的await方法阻塞，因为这是zk客户端不一定已经完成了与服务端的连接，在客户端连接到服务端时会触发观察者调用process()方法，我们在方法里边判断一下触发事件的类型，完成连接后计数器减一，connect方法中解除阻塞。
  * 还有两个地方需要注意：这里创建的znode的访问权限是open的，且该znode是持久化存储的。
+ * @author littlecar
  */
 public class CreateGroup  implements Watcher {
     /**
